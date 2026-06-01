@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="LLM-DetectAIve project graphic">
+  <rect width="240" height="240" fill="#fffaf2"/>
+  <rect x="44" y="38" width="118" height="142" rx="12" fill="#ffffff" stroke="#d8c6c0" stroke-width="4"/>
+  <path d="M68 72h68M68 96h48M68 120h72M68 144h40" stroke="#8a1538" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="144" cy="144" r="38" fill="none" stroke="#58705c" stroke-width="13"/>
+  <path d="M172 172l31 31" stroke="#58705c" stroke-width="13" stroke-linecap="round"/>
+  <path d="M129 144l13 13 26-31" fill="none" stroke="#ad7d2b" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

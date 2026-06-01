@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="FinChain project graphic">
+  <rect width="240" height="240" fill="#fffaf2"/>
+  <rect x="24" y="26" width="192" height="188" rx="14" fill="#f2dfe6" stroke="#d8c6c0"/>
+  <path d="M60 78h42M138 78h42M60 162h42M138 162h42" stroke="#8a1538" stroke-width="12" stroke-linecap="round"/>
+  <path d="M94 120h52" stroke="#58705c" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="60" cy="78" r="18" fill="#8a1538"/>
+  <circle cx="180" cy="78" r="18" fill="#8a1538"/>
+  <circle cx="60" cy="162" r="18" fill="#ad7d2b"/>
+  <circle cx="180" cy="162" r="18" fill="#ad7d2b"/>
+  <circle cx="120" cy="120" r="26" fill="#58705c"/>
+  <path d="M106 119l10 10 21-25" fill="none" stroke="#fffaf2" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

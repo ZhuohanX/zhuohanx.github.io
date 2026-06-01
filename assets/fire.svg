@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="FIRE project graphic">
+  <rect width="240" height="240" fill="#fffaf2"/>
+  <path d="M64 134c0-39 32-64 54-90 4 25 22 36 36 54 14 18 23 38 23 58 0 36-26 62-57 62-32 0-56-28-56-84z" fill="#8a1538"/>
+  <path d="M94 151c0-22 18-36 31-51 2 15 13 21 21 32 8 10 13 22 13 34 0 20-15 35-34 35-18 0-31-16-31-50z" fill="#ad7d2b"/>
+  <path d="M61 60c32-18 70-19 103-2M53 85c46-22 93-14 127 12M55 184c40 26 91 28 130 2" fill="none" stroke="#58705c" stroke-width="8" stroke-linecap="round"/>
+  <path d="M166 58l-4-25 25 8M56 183l-24 7 7-25" fill="none" stroke="#58705c" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
