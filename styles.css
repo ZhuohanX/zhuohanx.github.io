@@ -93,6 +93,16 @@ a:hover {
   color: var(--muted);
 }
 
+.profile-note {
+  margin: -6px 0 20px;
+  padding: 10px 0 0;
+  border-top: 1px solid var(--line);
+  color: var(--teal);
+  font-size: 13px;
+  font-weight: 720;
+  line-height: 1.45;
+}
+
 .profile-links {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -206,6 +216,38 @@ a:hover {
   background: var(--accent-dark);
 }
 
+.signal-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 26px;
+}
+
+.signal-grid article {
+  min-height: 116px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.72);
+}
+
+.signal-grid span {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--teal);
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.signal-grid strong {
+  display: block;
+  color: var(--ink);
+  font-size: 14px;
+  line-height: 1.38;
+}
+
 .section {
   padding: 36px 0;
   border-bottom: 1px solid var(--line);
@@ -230,7 +272,8 @@ a:hover {
 
 .directions,
 .community-grid,
-.mentoring-grid {
+.mentoring-grid,
+.collab-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 14px;
@@ -238,7 +281,8 @@ a:hover {
 
 .directions article,
 .community-grid article,
-.mentoring-grid article {
+.mentoring-grid article,
+.collab-list article {
   min-height: 142px;
   padding: 16px;
   border: 1px solid var(--line);
@@ -257,6 +301,7 @@ a:hover {
 .directions h3,
 .community-grid h3,
 .mentoring-grid h3,
+.collab-list h3,
 .project-card h3 {
   margin: 0;
   font-size: 17px;
@@ -266,10 +311,16 @@ a:hover {
 .directions p,
 .community-grid p,
 .mentoring-grid p,
+.collab-list p,
 .project-card p {
   margin: 8px 0 0;
   color: var(--muted);
   font-size: 14px;
+}
+
+.collab-list article {
+  min-height: 128px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(238, 243, 240, 0.7));
 }
 
 .mentoring-grid {
@@ -568,6 +619,8 @@ a:hover {
   .directions,
   .community-grid,
   .mentoring-grid,
+  .collab-list,
+  .signal-grid,
   .project-grid {
     grid-template-columns: 1fr;
   }
