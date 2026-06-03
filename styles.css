@@ -216,38 +216,6 @@ a:hover {
   background: var(--accent-dark);
 }
 
-.signal-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 12px;
-  margin-top: 26px;
-}
-
-.signal-grid article {
-  min-height: 116px;
-  padding: 14px;
-  border: 1px solid var(--line);
-  border-radius: 8px;
-  background: rgba(255, 255, 255, 0.72);
-}
-
-.signal-grid span {
-  display: block;
-  margin-bottom: 8px;
-  color: var(--teal);
-  font-size: 11px;
-  font-weight: 850;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
-.signal-grid strong {
-  display: block;
-  color: var(--ink);
-  font-size: 14px;
-  line-height: 1.38;
-}
-
 .section {
   padding: 36px 0;
   border-bottom: 1px solid var(--line);
@@ -620,7 +588,6 @@ a:hover {
   .community-grid,
   .mentoring-grid,
   .collab-list,
-  .signal-grid,
   .project-grid {
     grid-template-columns: 1fr;
   }
