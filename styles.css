@@ -241,7 +241,8 @@ a:hover {
 .directions,
 .community-grid,
 .mentoring-grid,
-.collab-list {
+.collab-list,
+.program-map {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 14px;
@@ -250,7 +251,8 @@ a:hover {
 .directions article,
 .community-grid article,
 .mentoring-grid article,
-.collab-list article {
+.collab-list article,
+.program-map article {
   min-height: 142px;
   padding: 16px;
   border: 1px solid var(--line);
@@ -270,6 +272,7 @@ a:hover {
 .community-grid h3,
 .mentoring-grid h3,
 .collab-list h3,
+.program-map h3,
 .project-card h3 {
   margin: 0;
   font-size: 17px;
@@ -280,6 +283,7 @@ a:hover {
 .community-grid p,
 .mentoring-grid p,
 .collab-list p,
+.program-map p,
 .project-card p {
   margin: 8px 0 0;
   color: var(--muted);
@@ -457,6 +461,49 @@ a:hover {
   font-weight: 780;
 }
 
+.program-map ul,
+.compact-publications {
+  display: grid;
+  gap: 10px;
+  margin: 12px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.program-map li,
+.compact-publications li {
+  display: grid;
+  gap: 2px;
+  padding-top: 9px;
+  border-top: 1px solid rgba(214, 221, 215, 0.78);
+}
+
+.program-map li:first-child,
+.compact-publications li:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.program-map a,
+.program-map .paper-title,
+.compact-publications a {
+  color: var(--ink);
+  font-size: 14px;
+  font-weight: 780;
+  line-height: 1.32;
+}
+
+.program-map a:hover,
+.compact-publications a:hover {
+  color: var(--accent);
+}
+
+.program-map li span:not(.paper-title),
+.compact-publications span {
+  color: var(--muted);
+  font-size: 13px;
+}
+
 .publication-list {
   display: grid;
   gap: 0;
@@ -538,7 +585,7 @@ a:hover {
   }
 
   .page-nav {
-    grid-template-columns: repeat(6, minmax(0, auto));
+    grid-template-columns: repeat(7, minmax(0, auto));
     gap: 12px;
   }
 }
@@ -578,6 +625,7 @@ a:hover {
   .community-grid,
   .mentoring-grid,
   .collab-list,
+  .program-map,
   .project-grid {
     grid-template-columns: 1fr;
   }
