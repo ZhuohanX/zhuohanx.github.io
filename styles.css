@@ -225,6 +225,10 @@ a:hover {
   padding-bottom: 32px;
 }
 
+.collaboration-strip {
+  padding-top: 24px;
+}
+
 .section-heading {
   margin-bottom: 14px;
 }
@@ -293,6 +297,42 @@ a:hover {
 .collab-list article {
   min-height: 128px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.96), rgba(238, 243, 240, 0.7));
+}
+
+.collab-intro {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+  align-items: baseline;
+  margin-bottom: 12px;
+}
+
+.collab-intro .eyebrow {
+  margin: 0 !important;
+}
+
+.collab-intro p:not(.eyebrow) {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.compact-collab-list {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.compact-collab-list article {
+  min-height: 116px;
+  padding: 14px;
+}
+
+.compact-collab-list h3 {
+  font-size: 15px;
+}
+
+.compact-collab-list p {
+  font-size: 13px;
 }
 
 .mentoring-grid {
