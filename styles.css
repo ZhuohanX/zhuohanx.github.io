@@ -233,6 +233,13 @@ a:hover {
   margin-bottom: 14px;
 }
 
+.section-note {
+  max-width: 820px;
+  margin: -2px 0 18px !important;
+  color: var(--muted);
+  font-size: 15px;
+}
+
 .eyebrow {
   margin: 0 0 8px !important;
   color: var(--teal) !important;
