@@ -240,6 +240,25 @@ a:hover {
   font-size: 15px;
 }
 
+.program-thesis {
+  display: grid;
+  gap: 10px;
+  max-width: 840px;
+  margin: -2px 0 18px;
+  padding-left: 16px;
+  border-left: 3px solid var(--teal);
+}
+
+.program-thesis p {
+  margin: 0 !important;
+  color: var(--muted);
+}
+
+.program-thesis strong {
+  color: var(--ink);
+  font-weight: 780;
+}
+
 .eyebrow {
   margin: 0 0 8px !important;
   color: var(--teal) !important;
@@ -299,6 +318,12 @@ a:hover {
   margin: 8px 0 0;
   color: var(--muted);
   font-size: 14px;
+}
+
+.directions .pillar-assets {
+  color: var(--teal);
+  font-size: 13px;
+  font-weight: 740;
 }
 
 .collab-list article {
