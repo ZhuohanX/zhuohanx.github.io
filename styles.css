@@ -40,6 +40,50 @@ a:hover {
   color: var(--accent-dark);
 }
 
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 13px max(28px, calc((100vw - 1180px) / 2 + 28px));
+  border-bottom: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.96);
+  backdrop-filter: blur(12px);
+}
+
+.topbar-name {
+  color: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 19px;
+  font-weight: 800;
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.topbar-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 18px;
+  justify-content: flex-end;
+}
+
+.topbar-links a {
+  color: var(--muted);
+  font-size: 14px;
+  font-weight: 760;
+  text-decoration: none;
+}
+
+.topbar-links a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 .site-shell {
   display: grid;
   grid-template-columns: minmax(250px, 320px) minmax(0, 1fr);
@@ -145,7 +189,7 @@ a:hover {
 }
 
 .page-nav {
-  display: grid;
+  display: none;
   gap: 8px;
   margin-top: 0;
   padding-top: 20px;
@@ -756,6 +800,17 @@ a:hover {
 @media (max-width: 680px) {
   body {
     font-size: 15px;
+  }
+
+  .topbar {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+    padding: 12px 14px;
+  }
+
+  .topbar-links {
+    justify-content: flex-start;
   }
 
   .site-shell {
