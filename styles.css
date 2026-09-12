@@ -554,6 +554,13 @@ a:hover {
   font-weight: 760;
 }
 
+.news-archive summary {
+  cursor: pointer;
+  color: var(--muted);
+  font-size: 14px;
+  margin-top: 12px;
+}
+
 .project-grid {
   display: grid;
   grid-template-columns: 1fr;
@@ -573,6 +580,11 @@ a:hover {
   border-radius: 0;
   background: transparent;
   box-shadow: none;
+}
+
+.project-card.text-publication {
+  grid-template-columns: minmax(0, 1fr);
+  min-height: 0;
 }
 
 .project-card img,
