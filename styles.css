@@ -241,8 +241,13 @@ a:hover {
   order: 7;
 }
 
-#community {
+#talks {
   order: 8;
+  scroll-margin-top: 64px;
+}
+
+#community {
+  order: 9;
 }
 
 #collaboration,
